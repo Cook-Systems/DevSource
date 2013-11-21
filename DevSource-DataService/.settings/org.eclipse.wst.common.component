@@ -3,7 +3,13 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <dependent-module archiveName="aop-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.cooksys.aop/com.cooksys.aop">
+        <dependent-module archiveName="commandler-jaxrs-1.9.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Commandler-JaxRS/Commandler-JaxRS">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commandler-core-1.9.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Commandler-Core/Commandler-Core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aop-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CookSys-AoP/CookSys-AoP">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="java-output-path" value="/com.cooksys.ds.DataService/build/classes"/>
