@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"> 
+
+<h:head></h:head> 
+<h:body>
+	<h:outputStylesheet library="#{systemSession.currentTheme}" name="css/style.css" />
+	<div id="templateHeader" >
+		<ui:insert name="header">
+			<ui:include src="#{app['currentBasicTemplate']}/header/default.xhtml" />
+		</ui:insert>
+	</div>
+	<div id="templateCenter">
+		<div id="templateLeftSidebar" >
+			<ui:insert name="leftSideBar">
+				<ui:include src="#{app['currentBasicTemplate']}/sidbars/defaultLeft.xhtml" />
+			</ui:insert>
+		</div>
+		<div id="templateRightSidebar" >
+			<ui:insert name="rightSideBar">
+				<ui:include src="#{app['currentBasicTemplate']}/sidbars/defaultRight.xhtml" />
+			</ui:insert>
+		</div>
+		<div id="templateContent" >
+			<ui:insert name="content">
+				<ui:include src="#{app['currentBasicTemplate']}/contents/default.xhtml" />
+			</ui:insert>
+		</div>
+	</div>
+	<div id="templateFooter" >
+		<ui:insert name="footer">          
+			<ui:include src="#{app['currentBasicTemplate']}/footer/default.xhtml" />
+		</ui:insert>
+	</div>
+</h:body> 
+</html>

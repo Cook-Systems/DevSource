@@ -1,0 +1,38 @@
+#templateHeader{
+	text-align: center;
+	width:100%;
+	margin:0 auto;
+}
+#templateCenter{
+	display:inline-block;
+	width:100%;
+	border:double;
+}
+#templateLeftSidebar{
+	float:left;
+	text-align: center;
+	border:dotted;
+	width:15%;
+}
+#templateContent{
+	margin: 0 auto;
+	text-align: center;
+	border:dotted;
+	width:60%;
+}
+#templateRightSidebar{
+	display:inline-block;
+	float:right;
+	text-align: center;
+	border:dotted;
+	width:15%;
+}
+#templateFooter{
+	display:inline-block;
+	width:100%;
+	text-align: center;
+	margin:0 auto;
+}
+body{
+	display: block;
+}
