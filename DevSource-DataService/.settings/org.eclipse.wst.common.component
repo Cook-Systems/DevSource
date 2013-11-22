@@ -9,9 +9,6 @@
         <dependent-module archiveName="commandler-core-1.9.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Commandler-Core/Commandler-Core">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="aop-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CookSys-AoP/CookSys-AoP">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <property name="java-output-path" value="/com.cooksys.ds.DataService/build/classes"/>
         <property name="context-root" value="com.cooksys.cds.cdsds"/>
     </wb-module>
