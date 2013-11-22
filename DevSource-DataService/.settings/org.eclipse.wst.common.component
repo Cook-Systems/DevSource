@@ -6,10 +6,10 @@
         <dependent-module archiveName="commandler-jaxrs-1.9.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Commandler-JaxRS/Commandler-JaxRS">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="commandler-core-1.9.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Commandler-Core/Commandler-Core">
+        <dependent-module archiveName="commandler-core-1.9.11-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Commandler-Core/Commandler-Core">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="aop-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CookSys-AoP/CookSys-AoP">
+        <dependent-module archiveName="aop-2.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CookSys-AoP/CookSys-AoP">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="java-output-path" value="/com.cooksys.ds.DataService/build/classes"/>
